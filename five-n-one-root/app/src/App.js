@@ -29,6 +29,7 @@ const App = props => {
       <div>
         <Switch>
           <Route exact path="/" component={Menu} />
+          <Route exact path="/colors" component={Colors} />
         </Switch>
       </div>
     </BrowserRouter>
