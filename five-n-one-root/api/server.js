@@ -1,6 +1,12 @@
 const express = require("express");
 const cors = require("cors");
-
+const colorRoutes = require("./routes/colors");
+/*
+const buzzwordRoutes = require("./routes/buzzwords");
+const starwarsRoutes = require("./routes/starwars");
+const emojisRoutes = require("./routes/emojis");
+const cookiesRoutes = require("./routes/fortune-cookies");
+*/
 const app = express();
 app.use(cors({ credentials: true }));
 
